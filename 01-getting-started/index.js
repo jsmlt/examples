@@ -9,7 +9,7 @@ train_y = [0, 0, 1, 1];
 test_X = [[1,2], [1,-2], [-1,-2], [-1,2]];
 
 // Create and train classifier
-const clf = new jsmlt.Supervised.SVM.SVM({
+var clf = new jsmlt.Supervised.SVM.SVM({
   kernel: new jsmlt.Kernel.Linear(),
 });
 clf.train(train_X, train_y);
