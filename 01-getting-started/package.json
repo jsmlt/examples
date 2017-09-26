@@ -1,0 +1,15 @@
+{
+  "name": "jsmlt-example-01-getting-started",
+  "version": "0.1.0",
+  "description": "JSMLT Example 01 - Getting Started: A simple SVM classifier",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesper van Engelen <contact@jepps.nl> (https://jespervanengelen.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@jsmlt/jsmlt": "^0.1.6"
+  }
+}
